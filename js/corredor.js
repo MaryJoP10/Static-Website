@@ -1,11 +1,11 @@
-var imagenes = ['images/asteroide.jpg', 'imgages/luna.jpg', 'imgages/robot.jpg'], 
+var imagenes = ['img/asteroide.jpg', 'img/luna.jpg', 'img/robot.jpg'], 
     cont = 0;
 
 function corredor(contenedor){
     contenedor.addEventListener('click', e => {
         let atras = contenedor.querySelector('.atras'),
             adelante = contenedor.querySelector('.adelante'),
-            img = contenedor.querySelector('images'),
+            img = contenedor.querySelector('img'),
             tgt = e.target;
 
         if(tgt == atras){
