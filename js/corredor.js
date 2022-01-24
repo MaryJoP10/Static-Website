@@ -8,5 +8,15 @@ function corredor(contenedor){
             img = contenedor.querySelector('images'),
             tgt = e.target;
 
+            if(tgt == atras){
+                if(cont > 0){
+                    img.src = imagenes[cont - 1];
+                    cont --;
+                }
+                else{
+                    img.src = imagenes[imagenes.length - 1];
+                    cont = imagenes.length -1;
+                }
+            }
     });
 }
