@@ -37,3 +37,16 @@ img{
     text-align: center;
     border-radius: 50%;
 }
+
+.botones:hover{
+    cursor: pointer;
+    background: cornsilk;
+}
+
+.atras{
+    left: 235px;
+}
+
+.adelante{
+    right: 235px;
+}
