@@ -1,4 +1,4 @@
-var imagenes = ['img/asteroide.jpg', 'img/luna.jpg', 'img/robot.jpg'], 
+var imagenes = ['images/asteroide.jpg', 'images/luna.jpg', 'images/robot.jpg'], 
     cont = 0;
 
 function corredor(contenedor){
