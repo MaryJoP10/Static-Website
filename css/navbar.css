@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/Nasa.jpg) no-repeat;
+}
+
+.container{
+    width: 100%;
+    height: 150px;
+    background: hsl(0 0% 100% / 0.1);
+    margin-top: 15px;
+}
+
+.navbar{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 125px;
+}
+
+.button{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.button a{
+    color: #DAE3E5;
+    font-size: 1.3rem;
+    font-family: "Montserrat Alternates";
+}
+
+.button a {
+  position: relative;
+}
+
+.button a:after,
+.button a::before{
+    transition: all .5s;
+}
+
+.button a:hover{
+    text-shadow:  0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff;
+}
+
+.button a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #DAE3E5;
+  height: 1px;
+}
+.button a:hover:after {
+  width: 100%;
+}
