@@ -3,6 +3,7 @@
     background-color: black;
     color: white;
 }
+
 .contenedor{
     display: block;
 }
@@ -79,19 +80,4 @@
 }
 .contenedor h1{
     text-align: center;
-}
-body{
-    background-color: #ffffff;
-}
-
-.banner{
-    
-    background-image: url(../images/fondo.jpg);
-    background-attachment: fixed;    
-    background-size: cover;
-    padding-bottom: 200px;  
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    transition-duration: .3s;
 }
