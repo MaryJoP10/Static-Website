@@ -8,6 +8,8 @@ nombre=prompt('Ingrese su nombre:','');
 edad=prompt('Ingrese su edad:','');
 alert('Hola '+ nombre);
 if (edad<18){
-    alert("seras redireccionado, disculpe")
+    alert("Eres menor de edad, seras redireccionado, disculpe")
     setTimeout (redireccionar(), 5000);
+}else{
+    alert("Bien pueda, siga adelante nene")
 }
