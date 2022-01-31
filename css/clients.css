@@ -1,19 +1,58 @@
-*{
-    margin: 0%;
+
+body{
+    background-color: #04080F;
 }
-.contenedor{
-    display: block;
+
+.box{
+    text-align: center;
+    margin-top: 40px;
 }
-.mars p{
-    display: block;
-    background-color: bisque;
+
+.comentarios{
+    display: inline-block;
+    width: 700px;
+    
+    
+
 }
-.apollo11{
-    display: block;
-    background-color: aqua;
+
+.cli1 {
+    display: flex;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-style: solid;
+    border-color: #A1C6EA;
+    border-radius: 20px;
 }
-.iss{
-    display: block;
-    background-color: black;
+
+.cli1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.user{
+    color: #507DBC;
+    font-size: 20px;
+}
+
+.text {
+    color: #DAE3E5;
+}
+
+.cli2 {
+    display: flex;
+    padding: 25px;
+    border-style: solid;
+    border-color: #A1C6EA;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cli2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
 
