@@ -1,0 +1,56 @@
+body{
+    background-color: #04080F;
+}
+
+.box{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.comentarios{
+    display: inline-block;
+    width: 700px;
+    
+    
+
+}
+
+.cli1 {
+    display: flex;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-style: solid;
+    border-color: #A1C6EA;
+    border-radius: 20px;
+}
+
+.cli1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.user{
+    color: #507DBC;
+    font-size: 20px;
+}
+
+.text {
+    color: #DAE3E5;
+}
+
+.cli2 {
+    display: flex;
+    padding: 25px;
+    border-style: solid;
+    border-color: #A1C6EA;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cli2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
