@@ -1,4 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background: hsl(0 0% 100% / 0.1);
+}
+
+.navbar{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 90px;
+}
+
 .button{
     list-style: none;
     display: inline-block;
@@ -41,30 +68,4 @@
 }
 .button a:hover:after {
   width: 100%;
-}
-.ajustenav{
-    width: 100%;
-    height: 100px;
-    background: hsl(0 0% 100% / 0.1);
-    margin-top: 30px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-
-}
-
-.navbar{
-    width: 80%;
-    height: 30px;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-.logo {
-    height: 90px;
-    
 }
