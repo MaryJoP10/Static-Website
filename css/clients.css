@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+}
+.contenedor{
+    display: block;
+}
+.mars p{
+    display: block;
+    background-color: bisque;
+}
+.apollo11{
+    display: block;
+    background-color: aqua;
+}
+.iss{
+    display: block;
+    background-color: black;
+}
+
