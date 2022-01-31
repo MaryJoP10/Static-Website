@@ -2,6 +2,7 @@
 
 body{
     overflow-x: hidden;
+    background: #04080F;
 }
 
 .slider{
@@ -94,7 +95,7 @@ body{
 }
 
 .capa figure .texto h1{
-    color: white;
+    color: #04080F;
     font-weight: 400;
     margin-bottom: 120px;
     margin-top: 30px;
