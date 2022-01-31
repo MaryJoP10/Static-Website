@@ -31,14 +31,14 @@
 .iss{
     display: block;
 }
-.container{
+.container-blog{
     width: 100%;
     max-width: 1000px;
     margin: auto;
     padding: 60px;
 }
 
-.container img{
+.container-blog img{
     width: 300px;
     height: 350px;
     float: left;
@@ -47,7 +47,7 @@
     padding-right: 15px;
 }
 
-.container p{
+.container-blog p{
     text-align: justify;
     font-size: 15px;
     font-weight: 100;
